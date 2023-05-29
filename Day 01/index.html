@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Javascript Ajax</title>
+        <script src="setting.js "></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="Click1()">
+        <div class="Head margin">
+            <div class="Home">
+                <span>Home</span>
+                <div class="search">
+                    <input type="text" placeholder="Search" />
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="side margin">
+            <header>Side title</header>
+            <div>Side content</div>
+        </div>
+
+        <div class="Main margin">
+            <header>Main title</header>
+
+            <main>
+                <div class="grid">
+                    <span class="label">#</span>
+                    <span class="label">First name</span>
+                    <span class="label">Last name</span>
+                    <span class="label">Email</span>
+                    <span class="label">Avatar</span>
+
+                    <span class="contain1">#</span>
+                    <span class="contain1">First name</span>
+                    <span class="contain1">Last name</span>
+                    <span class="contain1">Email</span>
+                    <img class="contain1" src="" />
+
+                    <span class="contain2">#</span>
+                    <span class="contain2">First name</span>
+                    <span class="contain2">Last name</span>
+                    <span class="contain2">Email</span>
+                    <img
+                        class="contain2"
+                        src="https://reqres.in/api/users?page="
+                    />
+                </div>
+                <span class="btn">
+                    <button
+                        class="active btnpre"
+                        onclick="ClickPre();active(this)"
+                    >
+                        <<
+                    </button>
+                    <button class="active btn1" onclick="Click1();active(this)">
+                        1
+                    </button>
+                    <button class="active btn2" onclick="Click2();active(this)">
+                        2
+                    </button>
+                    <button class="active btn3" onclick="Click3();active(this)">
+                        3
+                    </button>
+                    <button class="active btn4" onclick="Click4();active(this)">
+                        4
+                    </button>
+                    <button class="active btn5" onclick="Click5();active(this)">
+                        5
+                    </button>
+                    <button class="active btn6" onclick="Click6();active(this)">
+                        6
+                    </button>
+                    <button
+                        class="active btn1next fix"
+                        onclick="ClickNext();active(this)"
+                    >
+                        >>
+                    </button>
+                </span>
+            </main>
+        </div>
+    </body>
+</html>
